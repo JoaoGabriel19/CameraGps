@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cameraegps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <uses-feature
+14-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:7:5-84
+15        android:name="android.hardware.camera"
+15-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:7:19-57
+16        android:required="true" />
+16-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:7:58-81
+17
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:8:5-81
+18-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:9:5-67
+19-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:9:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:10:5-79
+20-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:10:22-76
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.cameraegps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.cameraegps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:12:5-41:19
+29        android:allowBackup="true"
+29-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:13:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:14:9-65
+32        android:debuggable="true"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:15:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:16:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:17:9-41
+36        android:networkSecurityConfig="@xml/network_security_config"
+36-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:21:9-69
+37        android:supportsRtl="true"
+37-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:18:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.CameraEGps" >
+39-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:19:9-48
+40>
+41        <activity
+41-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:23:9-31:20
+42            android:name="com.example.cameraegps.MainActivity"
+42-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:24:13-41
+43            android:exported="true" >
+43-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:25:13-36
+44            <intent-filter>
+44-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:26:13-30:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:27:17-69
+45-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:27:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:29:17-77
+47-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:29:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+52            android:name="androidx.core.content.FileProvider"
+52-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:33:13-62
+53            android:authorities="com.example.cameraegps.provider"
+53-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:34:13-60
+54            android:exported="false"
+54-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:35:13-37
+55            android:grantUriPermissions="true" >
+55-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:36:13-47
+56            <meta-data
+56-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:37:13-39:58
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:38:17-67
+58                android:resource="@xml/provider_paths" />
+58-->C:\Users\Joao Gabriel\AndroidStudioProjects\CameraEGps2\app\src\main\AndroidManifest.xml:39:17-55
+59        </provider>
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+62            android:authorities="com.example.cameraegps.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Joao Gabriel\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+70        </provider>
+71    </application>
+72
+73</manifest>
